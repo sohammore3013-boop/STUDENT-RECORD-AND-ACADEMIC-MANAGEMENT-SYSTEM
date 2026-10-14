@@ -34,13 +34,7 @@ The system allows users to add, search, update, and delete student records, mana
 - Validate attendance percentages within the range of 0–100.
 - Check for duplicate roll numbers before adding a student.
 - Handle invalid numeric inputs without terminating the program.
-
-## 🛠️ Technologies Used
-
-- **Programming Language:** Python 3
-- **Interface:** Command-Line Interface (CLI)
-- **Data Storage:** In-memory data structures
-- **Version Control:** Git and GitHub
+  
 
 ## 🧠 Python Concepts Demonstrated
 
@@ -60,44 +54,6 @@ This project demonstrates the use of the following Python concepts:
 | Set Methods | Maintain collections of unique values |
 | String Methods | Process user inputs and perform case-insensitive department searches |
 | Data Validation | Ensure valid marks, attendance, and required inputs |
-
-## 📋 Requirements
-
-- Python 3.8 or later
-- A terminal or command-line application
-- Git (optional, for cloning the repository)
-
-No external Python libraries are required.
-
-## 🚀 Installation and Execution
-
-### Step 1: Clone the Repository
-
-Open your terminal and run:
-
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-```
-
-Replace `<YOUR_GITHUB_REPOSITORY_URL>` with the HTTPS URL of your GitHub repository.
-
-### Step 2: Navigate to the Project Directory
-
-```bash
-cd <YOUR_REPOSITORY_FOLDER>
-```
-
-Replace `<YOUR_REPOSITORY_FOLDER>` with the actual directory name.
-
-### Step 3: Run the Program
-
-If your Python file is named `main.py`, execute:
-
-```bash
-python3 main.py
-```
-
-If your file has a different name, replace `main.py` with your actual Python filename.
 
 ## 🖥️ Application Menu
 
@@ -146,24 +102,6 @@ Student-Record-Management-System/
 6. Academic functions process marks and attendance to generate results.
 7. The report menu displays statistics and unique values maintained using sets.
 
-## ⚠️ Current Limitations
-
-- Student records are stored in memory and are **not saved permanently**.
-- All records are lost when the program terminates.
-- The application uses a command-line interface rather than a graphical user interface.
-- Email addresses, registration numbers, and dates of birth are checked for non-empty input but are not fully format-validated.
-
-## 🔮 Future Improvements
-
-Possible enhancements for future versions include:
-
-- Add permanent storage using JSON files, CSV files, or an SQLite database.
-- Implement email and registration number validation.
-- Add authentication for administrators.
-- Generate downloadable academic reports.
-- Add grade calculation and attendance eligibility reports.
-- Develop a graphical user interface or web-based dashboard.
-- Improve data consistency when student records are updated or deleted.
 
 ## 🎯 Project Objective
 
@@ -176,11 +114,5 @@ It also serves as a foundation for learning modular programming, data organizati
 **Soham More**
 
 Student Developer | Python Programming
-
-## 📄 License
-
-This project is available for educational and learning purposes. You may add an appropriate open-source license if you intend to allow others to reuse, modify, or distribute the code.
-
----
 
 ⭐ If you find this project useful, consider giving the repository a star on GitHub!
